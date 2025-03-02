@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <div className="mx-auto w-[80%] px-4  flex justify-between items-center h-20 relative">
+      <div className="mx-auto w-[75%] px-4  flex justify-between items-center h-20 relative">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img src="/images/logo.png" alt="Logo" className="w-10 h-10" />
@@ -68,7 +68,7 @@ function Navbar() {
             }}
             className="hidden md:inline-block px-6 py-3 bg-[#e69f25] text-white font-semibold rounded-full shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105"
           >
-            Dashboard
+            Tableau de bord
           </button>
         ) : (
           <button
@@ -172,7 +172,7 @@ function Navbar() {
                     }}
                     className="px-6 py-3 bg-[#e69f25] text-white font-semibold rounded-full shadow-md hover:shadow-lg transition duration-300"
                   >
-                    Dashboard
+                    Tableau de bord
                   </button>
                 ) : (
                   <button
